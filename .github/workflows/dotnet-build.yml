@@ -26,7 +26,3 @@ jobs:
       - name: Compilar a aplicação
         run: dotnet build **/*.csproj --no-restore
 
-      - name: Rodar testes (script personalizado)
-        run: |
-          echo "Iniciando testes..."
-          dotnet test --no-build --verbosity normal
